@@ -18,3 +18,11 @@
   ``` shell
 sudo apt-get install git  
 git clone https://github.com/SJH984/kuIOTBigdataClass.git
+# kuIOTBigdataClass
+
+-sql workbench install - ubuntu
+MySQL DBMS install - window
+MySQL DBMS install - ubuntu
+vscode mysql extension install
+Chapter01 database theory
+Chapter3 SQL bases
