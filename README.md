@@ -61,3 +61,26 @@ makefile을 사용하여 파일을 만듦
 make에서 사용하는 명령어 기본문법
 여러개 특정어를 특정하며 등록
 연속실행 명령어, 생략 가능 명렁어, 변수 사용
+select gruop by 사용
+order by 사용
+조인 연산 left outer join, left join, right join, left inner join을 배움
+부속질의 배움(중복사용)
+집합연산 배움
+-> 합집합 차칩합 교집합
+exists 배움(상관 부속질의문)
+데이터 정의어 배움
+->create문(테이블 구성및 속성과 속성에 관한 제약 정의 및 기본키 외래키 정의)
+{}->반복가능, {}->선택적사용, |->1개선택, <>-> 해당되는 문법 사항이 있음
+not null -> null값을 허용하지 않음, default-> 기본값 설정
+primary key-> 기본키 설정, foreign key->외래키 지정
+on delete -> 투플삭제(cascade, set null), check-> 값에 대한 조건 부여
+->alter문 배운(생선된 테이블의 속성과 그에 대한 제약 변경 및 기본키 외래키 변경)
+add-> 속성추가, drop-> 속성삭제, modify->속성타입변경
+drop문 배움
+insert 배움
+update 배움
+delete 배움
+sql내장함수 배움
+숫자함수 배움
+문자함수 배움
+날짜시간함수 배움
