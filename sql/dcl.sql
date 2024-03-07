@@ -35,5 +35,21 @@ WHERE  bookid = 14;
  WHERE bookid = 11;
  
  -- 3-50
- DELETE FROM CUSTOMER;
+ show tables;
+ set sql_safe_updates=0;
+ delete from Customer;
+ 
+ delete from Customer;
+ select * from Customer;
+ 
+ select * from information_schema.table_constraints
+ where table_name like 'Orders';
+ alter table Orders drop foreign key Orders_ibfk_1;
+ INSERT INTO Customer VALUES (1, '박지성', '영국 맨체스타', '000-5000-0001');
+INSERT INTO Customer VALUES (2, '김연아', '대한민국 서울', '000-6000-0001'); 
+INSERT INTO Customer VALUES (3, '김연경', '대한민국 경기도', '000-7000-0001');
+INSERT INTO Customer VALUES (4, '추신수', '미국 클리블랜드', '000-8000-0001');
+INSERT INTO Customer VALUES (5, '박세리', '대한민국 대전',  NULL);
+ 
+
  
