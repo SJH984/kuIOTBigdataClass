@@ -1,0 +1,2 @@
+/home/ubnt22/kuIOTBigdataClass/python/build/CMakeFiles/edit_cache.dir
+/home/ubnt22/kuIOTBigdataClass/python/build/CMakeFiles/rebuild_cache.dir
