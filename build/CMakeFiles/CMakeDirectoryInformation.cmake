@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/ubnt22/kuIOTBigdataClass/python")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ubnt22/kuIOTBigdataClass/python/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ubnt22/kuIOTBigdataClass/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -1,0 +1,3 @@
+/home/ubnt22/kuIOTBigdataClass/build/CMakeFiles/booklist.dir
+/home/ubnt22/kuIOTBigdataClass/build/CMakeFiles/edit_cache.dir
+/home/ubnt22/kuIOTBigdataClass/build/CMakeFiles/rebuild_cache.dir

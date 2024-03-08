@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubnt22/kuIOTBigdataClass/python
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubnt22/kuIOTBigdataClass/python/build
+CMAKE_BINARY_DIR = /home/ubnt22/kuIOTBigdataClass/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubnt22/kuIOTBigdataClass/python/build/CMakeFiles /home/ubnt22/kuIOTBigdataClass/python/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubnt22/kuIOTBigdataClass/build/CMakeFiles /home/ubnt22/kuIOTBigdataClass/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubnt22/kuIOTBigdataClass/python/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubnt22/kuIOTBigdataClass/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,6 +116,43 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named booklist
+
+# Build rule for target.
+booklist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 booklist
+.PHONY : booklist
+
+# fast build rule for target.
+booklist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/booklist.dir/build.make CMakeFiles/booklist.dir/build
+.PHONY : booklist/fast
+
+booklist.o: booklist.c.o
+.PHONY : booklist.o
+
+# target to build an object file
+booklist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/booklist.dir/build.make CMakeFiles/booklist.dir/booklist.c.o
+.PHONY : booklist.c.o
+
+booklist.i: booklist.c.i
+.PHONY : booklist.i
+
+# target to preprocess a source file
+booklist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/booklist.dir/build.make CMakeFiles/booklist.dir/booklist.c.i
+.PHONY : booklist.c.i
+
+booklist.s: booklist.c.s
+.PHONY : booklist.s
+
+# target to generate assembly for a file
+booklist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/booklist.dir/build.make CMakeFiles/booklist.dir/booklist.c.s
+.PHONY : booklist.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... booklist"
+	@echo "... booklist.o"
+	@echo "... booklist.i"
+	@echo "... booklist.s"
 .PHONY : help
 
 

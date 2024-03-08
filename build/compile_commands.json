@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubnt22/kuIOTBigdataClass/build",
+  "command": "/usr/bin/gcc  -I/usr/include/mysql -g -o CMakeFiles/booklist.dir/booklist.c.o -c /home/ubnt22/kuIOTBigdataClass/python/booklist.c",
+  "file": "/home/ubnt22/kuIOTBigdataClass/python/booklist.c"
+}
+]
