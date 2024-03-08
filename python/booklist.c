@@ -2,7 +2,6 @@
 #include <mysql.h>
 #include <string.h>
 // sudo apt install libmysql++*
-{
 int main() {
     MYSQL *conn;
     MYSQL_RES *res;
@@ -25,7 +24,6 @@ int main() {
     }
     if(mysql_query(conn, query)){
         printf("쿼리 실패\n");
-    }
     }
     
     res = mysql_store_result(conn);
