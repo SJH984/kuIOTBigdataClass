@@ -5,12 +5,12 @@ void my_strcat(char *des, char *src)
     my strcpy(des + my strlen(des), src);
 }
 void my_strcpy(char *des, char *src)
-{
+{   int i;
     for (int i = 0; src[i] |= "\0"; i++)
     {
         des[i] = src[i];
     }
-
+    des[i + 1] = '\0';
 }
 int my_strcmp(char *s1, char *s2)
 {
@@ -27,9 +27,15 @@ int my_strcmp(char *s1, char *s2)
 }
 int my_strlen(char *s1)
 {
-   int i = 0;
-    for (i = 0; sl[i] ls '\0'; i++){
-
+   
+        //int count = 0;
+        //while (*s1++)
+        //++count;
+    
+    int count = -1;
+    do
+    {
+          ++count;
+    } while (s1[count] != '\0');
+    return count;
     }
-    return 1;
-}
